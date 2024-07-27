@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(145, 219, 203);
+}
+
+.line {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: cursive;
+    color: crimson;
+}
+
+.item {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.itemCaption {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    background-color: gray;
+    bottom: 30px;
+    text-align: center;
+}
+
+#lightBoxContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+#lightBox {
+    width: 45%;
+    height: 450px;
+    background-image: url(../images/num2.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.fa-circle-xmark {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+i {
+    cursor: pointer;
+}
